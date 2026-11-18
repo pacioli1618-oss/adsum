@@ -3,6 +3,12 @@
 Versions follow `package.json` (shown in the app footer and on `/version`, with the deployed
 commit). The user-facing version of this list is `Version.releases` in `messages/*.json`.
 
+## 0.3.1 — 2026-11-18
+
+- Contact on About, Privacy and Terms now points to comments on the launch post
+  (gr1618.io/apresentando-o-adsum), held for editor approval. The `NEXT_PUBLIC_CONTACT_EMAIL`
+  option and the GitHub issues fallback are gone.
+
 ## 0.3.0 — 2026-11-18
 
 First pilot version.

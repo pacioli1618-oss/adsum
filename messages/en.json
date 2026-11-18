@@ -273,6 +273,10 @@
     "pilot": "Test version: Adsum is in a pilot with a few people. If something goes wrong, tell us through the contact on the About page.",
     "release": "Version {version}",
     "releases": {
+      "r0_3_1": {
+        "date": "November 18, 2026",
+        "i1": "Contact through comments on the launch post at gr1618.io, published only after the editor approves them."
+      },
       "r0_3_0": {
         "date": "November 18, 2026",
         "i1": "First pilot version.",
@@ -330,7 +334,7 @@
     "updated": "Updated {date}",
     "back": "Back",
     "contactTitle": "Contact",
-    "contactBody": "Questions, requests about your data or something wrong: <link>{contact}</link>.",
+    "contactBody": "Questions, suggestions or something wrong: leave a comment at <link>{contact}</link>. Comments only appear after the editor approves them, and requests about your data are never published.",
     "version": "version {version}"
   },
   "About": {

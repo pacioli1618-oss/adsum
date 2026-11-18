@@ -273,6 +273,10 @@
     "pilot": "Versión de prueba: Adsum está en piloto con pocas personas. Si algo falla, avisa por el contacto de la página Acerca de.",
     "release": "Versión {version}",
     "releases": {
+      "r0_3_1": {
+        "date": "18 de noviembre de 2026",
+        "i1": "Contacto por los comentarios de la publicación de lanzamiento en gr1618.io, publicados solo después de que el editor los aprueba."
+      },
       "r0_3_0": {
         "date": "18 de noviembre de 2026",
         "i1": "Primera versión del piloto.",
@@ -330,7 +334,7 @@
     "updated": "Actualizado el {date}",
     "back": "Volver",
     "contactTitle": "Contacto",
-    "contactBody": "Dudas, pedidos sobre tus datos o algo que no funciona: <link>{contact}</link>.",
+    "contactBody": "Dudas, sugerencias o algo que no funciona: deja un comentario en <link>{contact}</link>. Los comentarios solo aparecen después de que el editor los aprueba, y las solicitudes sobre tus datos nunca se publican.",
     "version": "versión {version}"
   },
   "About": {

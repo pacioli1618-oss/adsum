@@ -20,7 +20,6 @@ function" on the `ad_*` functions is expected (that is the API).
    | `NEXT_PUBLIC_SUPABASE_URL` | `https://uqkyhzvdwynpkqdiuvyn.supabase.co` |
    | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | the publishable key (`.env.example`) |
    | `NEXT_PUBLIC_SITE_URL` | `https://adsum.gr1618.io` |
-   | `NEXT_PUBLIC_CONTACT_EMAIL` | optional: contact on About, Privacy and Terms; without it, GitHub issues |
 
    Both Supabase values are public by design: the browser calls the `ad_*` RPCs directly and the
    tables are not exposed.
