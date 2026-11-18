@@ -1,0 +1,459 @@
+{
+  "Metadata": {
+    "title": "Adsum — attendance notebook, no sign-up",
+    "description": "Whoever provides the service notes the days on their own phone and sends the month's summary. The client invites, receives and checks. No sign-up."
+  },
+  "Common": {
+    "tagline": "Free · Open source · No sign-up · Sidekick by GR1618 Labs",
+    "saved": "Saved",
+    "save": "Save",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "loading": "Loading…",
+    "optional": "optional",
+    "notTimeClock": "Adsum is a notebook agreed between the parties. It is not a time clock, does not replace any working-time record required by law, and does not prove any kind of employment relationship."
+  },
+  "Home": {
+    "headline": "The days worked, noted by whoever worked them.",
+    "intro": "Whoever provides the service notes arrival and leaving on their own phone. At the end of the month, they send the summary. The client checks it and pays. No sign-up.",
+    "pathsLabel": "How you want to use it",
+    "clientPath": "I hire a service",
+    "clientPathHint": "Create the place, set the rate and invite whoever provides the service over WhatsApp.",
+    "providerPath": "I provide a service",
+    "providerPathHint": "Open your notebook: note each client's days and send the month's summary.",
+    "providerPathOpen": "Open my notebook · {count, plural, one {# client} other {# clients}}",
+    "myWorkplaces": "My places"
+  },
+  "WorkplaceForm": {
+    "name": "Name of the place or service",
+    "nameHint": "E.g. Aurora Street house, Office cleaning.",
+    "nameRequired": "Give the place a name.",
+    "rate": "Agreed rate",
+    "rateHint": "Optional. Only used to add up the month.",
+    "rateUnit": "Per",
+    "perDay": "day",
+    "perHour": "hour",
+    "wantsDailyNotice": "Ask for arrival and leaving notices",
+    "wantsDailyNoticeHint": "Each person decides whether to agree. Notices are only visible on the day itself.",
+    "acceptTerms": "I have read and accept the <terms>terms of use</terms>",
+    "acceptTermsHint": "You agree directly with whoever provides the service. Adsum is not part of that relationship.",
+    "termsRequired": "To continue, accept the terms of use.",
+    "create": "Create place"
+  },
+  "Manage": {
+    "checking": "Opening the panel…",
+    "missingToken": "This admin link is incomplete. Copy the whole link and try again."
+  },
+  "Workplace": {
+    "noClientToken": "This device doesn't have this place's admin link. Open the link you saved when you created the place.",
+    "menu": "Place options",
+    "edit": "Edit place",
+    "editHint": "Changing the rate doesn't change summaries already sent.",
+    "delete": "Delete place",
+    "deleteConfirm": "Delete “{name}”? The invites and the summaries received will be erased. People's notebooks stay with them.",
+    "rate": "{amount} per {unit, select, day {day} other {hour}}",
+    "noRate": "No agreed rate",
+    "wantsDailyNotice": "with daily notice",
+    "todayTitle": "Today",
+    "todayEmpty": "Nobody is sharing the daily notice yet.",
+    "todayHint": "Notices disappear at midnight. For the month, what counts is the summary each person sends.",
+    "arrivedAt": "arrived at {time}",
+    "leftAt": "left at {time}",
+    "notArrived": "no arrival notice today",
+    "here": "on site",
+    "peopleTitle": "People",
+    "peopleHint": "Each person gets their own invite and decides what to share with you.",
+    "inviteName": "Name of whoever provides the service",
+    "inviteNameHint": "What you call them. They see this name on the invite.",
+    "createInvite": "Create invite",
+    "status": "{status, select, invited {invite sent} active {accepted} stopped {stopped sharing} declined {declined} other {—}}",
+    "sharesDailyNotice": "Shares the month's summary and the daily notice",
+    "sharesSummaryOnly": "Shares the month's summary",
+    "invitePending": "Hasn't answered yet",
+    "stoppedHint": "Summaries already sent stay here",
+    "declinedList": "Declined: {names}",
+    "personMenu": "Options for {name}",
+    "cancelInvite": "Cancel invite",
+    "cancelInviteConfirm": "Cancel {name}'s invite? The link stops working.",
+    "remove": "Remove person",
+    "removeConfirm": "Remove {name}? The summaries {name} sent will be erased here. {name}'s notebook stays with {name}.",
+    "sendInvite": "Send invite on WhatsApp",
+    "copyInvite": "Copy link",
+    "inviteMessage": "Hi {name}! I'd like to follow the service days at {workplace} on Adsum. You note them on your phone and send me the month's summary. See what is shared and answer here: {url}",
+    "adminLinkTitle": "Admin link",
+    "adminLinkHint": "This link opens this panel on any device. Keep it and don't share it: whoever has it sees and changes everything.",
+    "copyAdminLink": "Copy admin link",
+    "sendAdminLinkToMe": "Send it to me on WhatsApp",
+    "adminLinkMessage": "Adsum admin link for {name} (don't share it): {url}"
+  },
+  "Summaries": {
+    "title": "Monthly summaries",
+    "empty": "No summary received yet. Each person sends theirs when the month ends.",
+    "month": "Month",
+    "days": "{count, plural, one {day} other {days}}",
+    "hours": "hours",
+    "amount": "to pay",
+    "sentAt": "Sent {when}",
+    "lateDays": "{count, plural, one {# day noted later} other {# days noted later}}",
+    "late": "noted later",
+    "showDays": "Show the days",
+    "hideDays": "Hide the days",
+    "times": "Arrival – leaving",
+    "review": "{review, select, confirmed {matches} disputed {doesn't match} other {—}}",
+    "notReviewed": "to check",
+    "confirm": "Matches",
+    "dispute": "Doesn't match",
+    "disputeNote": "What doesn't match?",
+    "disputeNoteHint": "The person sees this note in their notebook. Up to 300 characters.",
+    "sendDispute": "Send",
+    "cancel": "Cancel",
+    "export": "Download the month's spreadsheet",
+    "retentionHint": "Summaries stay here for 60 days after they are sent. Download the spreadsheet to keep them.",
+    "csvPerson": "Person",
+    "csvDate": "Day",
+    "csvCheckIn": "Arrival",
+    "csvCheckOut": "Leaving",
+    "csvNote": "Note",
+    "csvLate": "Noted later",
+    "csvYes": "yes",
+    "csvDays": "Days",
+    "csvHours": "Hours",
+    "csvAmount": "Amount",
+    "csvReview": "Check"
+  },
+  "Invite": {
+    "missingToken": "This invite is incomplete. Ask whoever invited you for the link again.",
+    "greeting": "Hi {name}",
+    "title": "{workplace} invited you to share your service days",
+    "rate": "Agreed rate: {amount} per {unit, select, day {day} other {hour}}",
+    "sharedTitle": "What is shared",
+    "sharedSummary": "Each month's summary, when you send it: days, amount and, if you want, times and notes.",
+    "sharedChoice": "Before each send you check everything and choose what goes.",
+    "dailyNotice": "Notify when I arrive and leave",
+    "dailyNoticeHint": "The client sees the notice only on the day itself. You can turn it off any time.",
+    "notSharedTitle": "What stays with you",
+    "notShared": "Your notebook stays on your phone: your other clients, the days you didn't send and the notes you didn't choose to send. Adsum doesn't use your location.",
+    "youDecide": "You can stop sharing any time, on this client's page in your notebook.",
+    "declinedBefore": "You declined this invite before. You can still accept it.",
+    "accept": "Accept and open my notebook",
+    "decline": "Decline",
+    "declineConfirm": "Decline {workplace}'s invite? Whoever invited you will see that you declined.",
+    "acceptTerms": "By accepting, you agree to the <terms>terms of use</terms> and the <privacy>privacy policy</privacy>.",
+    "alreadyAccepted": "You already accepted this invite. Open your notebook to note the days.",
+    "alreadyStopped": "You stopped sharing with this client. Open your notebook to share again, if you want.",
+    "openNotebook": "Open in my notebook"
+  },
+  "Notebook": {
+    "title": "My notebook",
+    "cannotPersist": "This browser isn't keeping data (private mode or a browser inside another app). Open Adsum in your phone's browser so you don't lose your notes.",
+    "empty": "Your notebook is empty.",
+    "emptyHint": "When a client invites you, they show up here. You can also add a client yourself.",
+    "addClient": "Add client",
+    "clientsLabel": "Clients",
+    "today": "Today, {date}",
+    "editDay": "Fix a time",
+    "arrived": "Arrived",
+    "left": "Left",
+    "noticeSending": "Sending notice…",
+    "noticeResult": "{result, select, sent {Notice sent to {client}.} queued {No internet: the notice goes out when the connection is back, today.} refused {Couldn't notify {client}. The time is noted in your notebook.} other {Noted.}}",
+    "noticeOn": "{client} gets a notice when you tap.",
+    "noticeOff": "Noted only in your notebook.",
+    "seeMonth": "See month",
+    "days": "{count, plural, one {day} other {days}}",
+    "hours": "hours",
+    "amount": "to receive",
+    "pendingTitle": "Summaries to send",
+    "pendingItem": "{client} · {month}",
+    "clientsTitle": "Clients",
+    "onlyHere": "Only in your notebook",
+    "sharingStopped": "Sharing stopped",
+    "sharesDailyNotice": "Gets the summary and the daily notice",
+    "sharesSummary": "Gets the month's summary",
+    "deviceOnly": "Your notebook lives only on this phone. If you change phones or clear the browser's data, the notes are lost: send the summaries or download each month's spreadsheet."
+  },
+  "ClientForm": {
+    "back": "← My notebook",
+    "title": "New client",
+    "intro": "To note the days of a client who didn't send an invite. It stays only in your notebook.",
+    "name": "Client name",
+    "nameHint": "E.g. Mrs. Marta, Downtown office.",
+    "nameRequired": "Give the client a name.",
+    "rate": "Agreed rate",
+    "rateUnit": "Per",
+    "perDay": "day",
+    "perHour": "hour",
+    "inviteHint": "To send the summary, you use WhatsApp or the spreadsheet. If the client uses Adsum, ask them to send you an invite.",
+    "add": "Add"
+  },
+  "ClientMonth": {
+    "notFound": "This client isn't in this device's notebook.",
+    "back": "← My notebook",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "calendarLabel": "Days of the month",
+    "calendarHint": "Tap a day to note or fix it. The green dot marks what was noted later.",
+    "worked": "worked",
+    "late": "noted later",
+    "checkIn": "Arrival",
+    "checkOut": "Leaving",
+    "checkInRequired": "Enter the arrival time.",
+    "timeInvalid": "Invalid time.",
+    "note": "Note for the day",
+    "noteHint": "Optional, up to {max} characters. Goes to the client only if you choose it when sending.",
+    "lateHint": "This day is over: when saved, it shows as “noted later” in the summary.",
+    "clear": "Clear day",
+    "clearConfirm": "Clear this day's notes?",
+    "days": "{count, plural, one {day} other {days}}",
+    "hours": "hours",
+    "amount": "to receive",
+    "lateDays": "{count, plural, one {# day noted later} other {# days noted later}}",
+    "send": "Send the month's summary",
+    "sendPartial": "Send a partial summary",
+    "sendAgain": "Send again",
+    "settingsTitle": "Client",
+    "editClient": "Edit name and rate",
+    "linkedRateHint": "This rate is your notebook's. If the agreement changed, tell the client.",
+    "removeClient": "Remove from notebook",
+    "removeConfirm": "Remove {name} from the notebook? Every day noted for {name} will be erased from this device.",
+    "removeLinkedConfirm": "Remove {name} from the notebook? You stop sharing with {name} and the noted days are erased from this device. Summaries already sent stay with the client until they expire."
+  },
+  "Sharing": {
+    "title": "Sharing",
+    "activeHint": "{client} gets the summaries you send.",
+    "stoppedHint": "You stopped sharing with {client}. Nothing new is sent.",
+    "dailyNotice": "Notify when I arrive and leave",
+    "dailyNoticeHint": "{client} sees the notice only on the day itself.",
+    "clientNoDailyNotice": "This client didn't ask for daily notices.",
+    "review": "{review, select, confirmed {matches} disputed {doesn't match} other {to check}}",
+    "stop": "Stop sharing",
+    "stopConfirm": "Stop sharing with {client}? Today's notices are erased and nothing new is sent. You can come back later.",
+    "resume": "Share again"
+  },
+  "Send": {
+    "notFound": "We couldn't find this client or month in your notebook.",
+    "back": "← {client}",
+    "title": "Month's summary",
+    "monthNotOver": "The month isn't over yet. You can send now and again at the end: the latest send replaces the previous one.",
+    "days": "{count, plural, one {day} other {days}}",
+    "hours": "hours",
+    "amount": "to receive",
+    "choiceTitle": "What goes in the summary",
+    "includeHours": "Arrival and leaving times",
+    "includeHoursHint": "Without times, only the list of days goes.",
+    "includeNotes": "Notes for the days",
+    "includeNotesHint": "What you wrote on each day.",
+    "lateNotice": "{count, plural, one {# day shows} other {# days show}} as “noted later”. That goes in the summary.",
+    "late": "noted later",
+    "previewTitle": "How the client will see it",
+    "sendTo": "Send to {client}",
+    "sent": "Summary sent. {client} will check it and you'll see the answer on the client's page.",
+    "notLinkedHint": "This client isn't on Adsum: send the summary on WhatsApp or download the spreadsheet.",
+    "sharingStoppedHint": "You stopped sharing with this client. To send through Adsum, share again.",
+    "sendWhatsApp": "Send on WhatsApp",
+    "downloadCsv": "Download spreadsheet",
+    "textTitle": "Summary for {month} — {client}",
+    "textDays": "Days: {count}",
+    "textHours": "Hours: {hours}",
+    "textAmount": "Amount: {amount}",
+    "textFooter": "Noted on Adsum (attendance notebook).",
+    "csvDate": "Day",
+    "csvCheckIn": "Arrival",
+    "csvCheckOut": "Leaving",
+    "csvNote": "Note",
+    "csvLate": "Noted later",
+    "csvYes": "yes",
+    "csvDays": "Days",
+    "csvHours": "Hours",
+    "csvAmount": "Amount"
+  },
+  "Version": {
+    "title": "Version and what's new",
+    "back": "← Home",
+    "current": "You're using version {version}",
+    "pilot": "Test version: Adsum is in a pilot with a few people. If something goes wrong, tell us through the contact on the About page.",
+    "release": "Version {version}",
+    "releases": {
+      "r0_3_0": {
+        "date": "November 18, 2026",
+        "i1": "First pilot version.",
+        "i2": "The client creates the place and invites each person on WhatsApp, with no sign-up.",
+        "i3": "Whoever provides the service notes arrival and leaving on their own phone, with a note for the day.",
+        "i4": "Month's summary sent by the person, with days “noted later” flagged.",
+        "i5": "Summary check (matches / doesn't match) and the month's spreadsheet.",
+        "i6": "Daily arrival and leaving notice, optional and only on the day itself.",
+        "i7": "Portuguese, Spanish and English; light and dark theme."
+      }
+    },
+    "code": "Open source at <repo>github.com/pacioli1618-oss/adsum</repo>."
+  },
+  "Share": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy. Press and hold the link to copy it."
+  },
+  "Errors": {
+    "not_authorized": "This admin link is no longer valid. Ask whoever created the place for the right link.",
+    "terms_not_accepted": "To continue, accept the terms of use.",
+    "provider_name_required": "Write the person's name.",
+    "provider_name_taken": "There is already an invite for {name} at this place.",
+    "provider_not_found": "This person is no longer at this place.",
+    "workplace_full": "This place reached the limit of 100 people.",
+    "review_invalid": "Choose matches or doesn't match.",
+    "summary_not_found": "This summary no longer exists. Reload the page.",
+    "invite_not_found": "This invite is no longer valid. Whoever invited you may have cancelled it.",
+    "invite_not_answered": "First accept the invite.",
+    "sharing_not_active": "You stopped sharing with this client. Share again to send.",
+    "daily_notice_off": "The daily notice is off for this client.",
+    "notice_invalid": "Invalid notice.",
+    "notice_out_of_day": "Notices only work on the day itself. The time is noted in your notebook.",
+    "month_in_future": "This month hasn't started yet.",
+    "rate_limited": "Too many attempts {period, select, day {today} other {this hour}}. Try again later.",
+    "network": "No connection. Check the internet and try again.",
+    "unknown": "Something went wrong. Try again."
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "ThemeSwitcher": {
+    "label": "Theme: {choice, select, light {light} dark {dark} other {automatic, follows the device}}. Tap to change."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "Check the link. Invites and admin links must be complete.",
+    "cta": "Go home"
+  },
+  "Legal": {
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "linksLabel": "About Adsum",
+    "updated": "Updated {date}",
+    "back": "Back",
+    "contactTitle": "Contact",
+    "contactBody": "Questions, requests about your data or something wrong: <link>{contact}</link>.",
+    "version": "version {version}"
+  },
+  "About": {
+    "title": "About Adsum",
+    "intro": "Adsum is Latin for “present!”, the answer at roll call. It's a simple attendance notebook with no sign-up, from the Sidekick series by GR1618 Labs.",
+    "sections": {
+      "what": {
+        "title": "What it's for",
+        "p1": "Whoever provides a service notes the days they were on site, with arrival, leaving and a short note. At the end of the month, they send the summary to whoever hired them.",
+        "p2": "The client invites people, receives the summaries, checks them and downloads the spreadsheet to pay. Both sides see the same summary.",
+        "p3": "Adsum is a notebook agreed between the parties. It is not a time clock, does not replace any working-time record required by law, and does not prove any kind of employment relationship."
+      },
+      "safety": {
+        "title": "How to tell a real link",
+        "p1": "Adsum links start with {host}. Adsum never asks for a password, ID, photo or payment.",
+        "p2": "Be wary of messages asking for any of these in Adsum's name."
+      },
+      "notebook": {
+        "title": "Where the notes live",
+        "p1": "The notebook of whoever provides the service stays on their own phone. The server receives only what the person chooses to share: the month's summary and, if they want, the day's arrival and leaving notice.",
+        "p2": "The day's notices disappear at midnight. Summaries are kept for 60 days after they are sent."
+      },
+      "who": {
+        "title": "Who makes it",
+        "p1": "Adsum is made by {operator} as an independent project. It's free, with no ads and no data sales.",
+        "p2": "It's in a pilot with a few people before opening to the public."
+      },
+      "code": {
+        "title": "Open source",
+        "p1": "All the code is published at <repo>github.com/pacioli1618-oss/adsum</repo> under the AGPL-3.0 license. Anyone can check what the app does with data."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Privacy",
+    "intro": "Adsum keeps as little as possible, for as short as possible. This page explains what, where and for how long.",
+    "sections": {
+      "collect": {
+        "title": "What goes to the server",
+        "p1": "From the client: the place's name, the agreed rate, the language, the date the terms were accepted and the names used in invites.",
+        "p2": "From whoever provides the service, only after accepting an invite: each month's summary they send (days, amount and, if they choose, times and notes) and, if they turn it on, the day's arrival and leaving notices.",
+        "p3": "We don't ask for e-mail, phone, ID, photo or location. There is no sign-up and no password: access is by link."
+      },
+      "notebook": {
+        "title": "What stays on the phone",
+        "p1": "The notebook of whoever provides the service — every day, time, note and client — stays in the browser storage of their own phone and doesn't go to the server.",
+        "p2": "Admin and invite links are also kept on the device, so the app opens without the link again."
+      },
+      "visibility": {
+        "title": "Who sees what",
+        "p1": "The client sees, for each invited person: whether they accepted, the summaries they sent and, if they turned it on, the day's notices.",
+        "p2": "Whoever provides the service sees the place's name, the rate and the check of each summary sent. One person doesn't see the other people at the same place."
+      },
+      "retention": {
+        "title": "For how long",
+        "p1": "Arrival and leaving notices: until the end of the day itself. Summaries: 60 days after they are sent. Places unused for 400 days are erased with everything in them.",
+        "p2": "The client can delete the place any time. Whoever provides the service can stop sharing any time; that erases the day's notices."
+      },
+      "providers": {
+        "title": "Services we use",
+        "p1": "The app runs on Vercel and the data is stored on Supabase, in the São Paulo region. To limit abuse, we keep for a short time a code derived from the network address, which can't be turned back into the address."
+      },
+      "rights": {
+        "title": "Your rights",
+        "p1": "You can ask for access to, correction or deletion of your data. Since there is no sign-up, the fastest way is the app's own options: delete the place, remove a person, stop sharing or remove a client from the notebook.",
+        "p2": "For any other request, use the contact below."
+      },
+      "controller": {
+        "title": "Controller",
+        "p1": "{operator} is responsible for the data that reaches the server. The notes agreed between the client and whoever provides the service are the parties' responsibility."
+      }
+    }
+  },
+  "Terms": {
+    "title": "Terms of use",
+    "intro": "Short rules for using Adsum. By creating a place or accepting an invite, you agree to them.",
+    "sections": {
+      "service": {
+        "title": "The service",
+        "p1": "Adsum is a free notebook, offered as is, in a pilot phase. It may change, go offline or shut down.",
+        "p2": "Keep your own copies: download each month's spreadsheet."
+      },
+      "notRecord": {
+        "title": "Not a time clock",
+        "p1": "Adsum is not an electronic working-time record system, does not meet Brazil's Portaria MTP nº 671/2021 and does not replace any control required by law.",
+        "p2": "The notes are made by whoever provides the service, on their own phone, and can be corrected by that person. They don't prove any kind of employment relationship."
+      },
+      "notParty": {
+        "title": "Adsum is not part of the agreement",
+        "p1": "The client and whoever provides the service agree between themselves on the work, the rate and the payment. {operator} doesn't intermediate, doesn't receive or pass on payments and isn't liable for what is agreed."
+      },
+      "responsibility": {
+        "title": "Each one answers for what they note",
+        "p1": "The client answers for the names and rates they enter. Whoever provides the service answers for the days, times and notes they send.",
+        "p2": "Don't use Adsum to watch people, for illegal purposes or to store sensitive data in notes."
+      },
+      "records": {
+        "title": "Keeping the data",
+        "p1": "Summaries stay on the server for 60 days and notices only on the day itself. The notebook stays on the phone of whoever provides the service. If you need to keep them longer, download the spreadsheet."
+      },
+      "links": {
+        "title": "Links",
+        "p1": "Whoever has the admin link controls the place; whoever has the invite link controls the sharing. Don't share these links with anyone who shouldn't have them."
+      },
+      "license": {
+        "title": "Open source",
+        "p1": "Adsum's code is published under the AGPL-3.0 license at <repo>github.com/pacioli1618-oss/adsum</repo>."
+      },
+      "law": {
+        "title": "Governing law",
+        "p1": "These terms are governed by the laws of Brazil."
+      }
+    }
+  },
+  "Install": {
+    "button": "Add to home screen",
+    "title": "Add to home screen",
+    "intro": "That way Adsum sits with your apps and opens straight on your notebook.",
+    "ios1": "Tap the Share button (the square with an arrow pointing up) in Safari's bar.",
+    "ios2": "Scroll and tap \"Add to Home Screen\".",
+    "ios3": "Tap \"Add\". The Adsum icon shows up on your home screen.",
+    "menu1": "Open the browser menu (the three dots ⋮).",
+    "menu2": "Tap \"Add to Home screen\" or \"Install app\" and confirm.",
+    "done": "Got it"
+  }
+}

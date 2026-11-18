@@ -1,0 +1,132 @@
+/* Design System tokens: GR1618 Labs palette (cobalt + lime) on cool greys. Names follow docs/conventions.md.
+   Keep in sync with the GR1618 Labs Design System's tokens.json. */
+:root {
+  color-scheme: light;
+
+  /* Color — light */
+  --surface: #f3f4f6;
+  --card: #ffffff;
+  --ink: #0f1115;
+  --ink-soft: #363b45;
+  --ink-muted: #5a606b;
+  --border: #dcdfe5;
+  --border-control: #878d99;
+  --divider: #eceef2;
+  --track: #e4e7ec;
+  --brand: #2340d9;
+  --brand-strong: #1a2fa6;
+  --brand-tint: #e6ebff;
+  --on-brand: #ffffff;
+  /* Lime: only as a background, always with --on-signal text ("anotado depois", today). */
+  --signal: #c6f24e;
+  --on-signal: #0f1115;
+  /* Warnings and errors. */
+  --ember: #b42318;
+  --ember-strong: #8f1c13;
+  --ember-tint: #fdecea;
+  --ember-track: #f6d3cf;
+  /* Logo dot: cobalt on light, lime on dark. */
+  --logo-dot: #2340d9;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* Size */
+  --size-chip: 36px;
+  --size-control: 44px;
+  --size-cta: 52px;
+
+  /* Type */
+  --font-sans: var(--font-inter), Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-space-grotesk), "Space Grotesk", var(--font-sans);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Dark theme: <html data-theme="dark">, set by src/lib/theme.ts from the device or the header button.
+   Screen only: paper is always light, so printed pages keep dark text. */
+@media screen {
+  :root[data-theme='dark'] {
+    color-scheme: dark;
+    --surface: #0d0f13;
+    --card: #161920;
+    --ink: #eef0f4;
+    --ink-soft: #c9cdd6;
+    --ink-muted: #a2a8b4;
+    --border: #2a2f3a;
+    --border-control: #6e7583;
+    --divider: #1e222b;
+    --track: #2a2f3a;
+    --brand: #7d93ff;
+    --brand-strong: #b9c6ff;
+    --brand-tint: #1d2440;
+    --on-brand: #0d0f13;
+    --signal: #c6f24e;
+    --on-signal: #0d0f13;
+    --ember: #ff8a80;
+    --ember-strong: #ffb4ab;
+    --ember-tint: #3a1715;
+    --ember-track: #4a201c;
+    --logo-dot: #c6f24e;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
+
+/* One focus style for every control: visible on keyboard, invisible on tap. */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+  html,
+  body {
+    background: var(--card);
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "Metadata": {
+    "title": "Adsum — cuaderno de asistencia sin registro",
+    "description": "Quien presta el servicio anota los días en su propio celular y envía el resumen del mes. Quien contrata invita, recibe y revisa. Sin registro."
+  },
+  "Common": {
+    "tagline": "Gratis · Código abierto · Sin registro · Sidekick GR1618 Labs",
+    "saved": "Guardado",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "remove": "Quitar",
+    "loading": "Cargando…",
+    "optional": "opcional",
+    "notTimeClock": "Adsum es un cuaderno de anotaciones acordado entre las partes. No es un reloj de control horario, no reemplaza ningún registro de jornada exigido por ley y no prueba ningún tipo de vínculo."
+  },
+  "Home": {
+    "headline": "Los días trabajados, anotados por quien trabajó.",
+    "intro": "Quien presta el servicio anota la llegada y la salida en su propio celular. A fin de mes, envía el resumen. Quien contrata lo revisa y paga. Sin registro.",
+    "pathsLabel": "Cómo quieres usarlo",
+    "clientPath": "Contrato un servicio",
+    "clientPathHint": "Crea el lugar, define el valor e invita por WhatsApp a quien presta el servicio.",
+    "providerPath": "Presto un servicio",
+    "providerPathHint": "Abre tu cuaderno: anota los días de cada cliente y envía el resumen del mes.",
+    "providerPathOpen": "Abrir mi cuaderno · {count, plural, one {# cliente} other {# clientes}}",
+    "myWorkplaces": "Mis lugares"
+  },
+  "WorkplaceForm": {
+    "name": "Nombre del lugar o del servicio",
+    "nameHint": "Ej.: Casa de la calle Aurora, Limpieza de la oficina.",
+    "nameRequired": "Ponle un nombre al lugar.",
+    "rate": "Valor acordado",
+    "rateHint": "Opcional. Solo se usa para sumar el mes.",
+    "rateUnit": "Por",
+    "perDay": "día",
+    "perHour": "hora",
+    "wantsDailyNotice": "Pedir aviso de llegada y salida",
+    "wantsDailyNoticeHint": "Cada persona decide si acepta. Los avisos solo se ven el mismo día.",
+    "acceptTerms": "Leí y acepto los <terms>términos de uso</terms>",
+    "acceptTermsHint": "Acuerdas directamente con quien presta el servicio. Adsum no participa de esa relación.",
+    "termsRequired": "Para continuar, acepta los términos de uso.",
+    "create": "Crear lugar"
+  },
+  "Manage": {
+    "checking": "Abriendo el panel…",
+    "missingToken": "Este enlace de administración está incompleto. Copia el enlace completo e inténtalo de nuevo."
+  },
+  "Workplace": {
+    "noClientToken": "Este dispositivo no tiene el enlace de administración de este lugar. Abre el enlace que guardaste al crear el lugar.",
+    "menu": "Opciones del lugar",
+    "edit": "Editar lugar",
+    "editHint": "Cambiar el valor no altera los resúmenes ya enviados.",
+    "delete": "Eliminar lugar",
+    "deleteConfirm": "¿Eliminar “{name}”? Se borrarán las invitaciones y los resúmenes recibidos. Los cuadernos de las personas siguen con ellas.",
+    "rate": "{amount} por {unit, select, day {día} other {hora}}",
+    "noRate": "Sin valor acordado",
+    "wantsDailyNotice": "con aviso diario",
+    "todayTitle": "Hoy",
+    "todayEmpty": "Nadie comparte el aviso diario todavía.",
+    "todayHint": "Los avisos desaparecen a medianoche. Para el mes, vale el resumen que envía cada persona.",
+    "arrivedAt": "llegó a las {time}",
+    "leftAt": "salió a las {time}",
+    "notArrived": "sin aviso de llegada hoy",
+    "here": "en el lugar",
+    "peopleTitle": "Personas",
+    "peopleHint": "Cada persona recibe su propia invitación y decide qué comparte contigo.",
+    "inviteName": "Nombre de quien presta el servicio",
+    "inviteNameHint": "Como llamas a la persona. Ella ve este nombre en la invitación.",
+    "createInvite": "Crear invitación",
+    "status": "{status, select, invited {invitación enviada} active {aceptó} stopped {dejó de compartir} declined {rechazó} other {—}}",
+    "sharesDailyNotice": "Comparte el resumen del mes y el aviso diario",
+    "sharesSummaryOnly": "Comparte el resumen del mes",
+    "invitePending": "Aún no respondió",
+    "stoppedHint": "Los resúmenes ya enviados siguen aquí",
+    "declinedList": "Rechazaron: {names}",
+    "personMenu": "Opciones de {name}",
+    "cancelInvite": "Cancelar invitación",
+    "cancelInviteConfirm": "¿Cancelar la invitación de {name}? El enlace deja de funcionar.",
+    "remove": "Quitar persona",
+    "removeConfirm": "¿Quitar a {name}? Los resúmenes que envió {name} se borrarán de aquí. El cuaderno de {name} sigue con {name}.",
+    "sendInvite": "Enviar invitación por WhatsApp",
+    "copyInvite": "Copiar enlace",
+    "inviteMessage": "¡Hola, {name}! Quiero seguir por Adsum los días de servicio en {workplace}. Tú anotas en tu celular y me envías el resumen del mes. Mira qué se comparte y responde aquí: {url}",
+    "adminLinkTitle": "Enlace de administración",
+    "adminLinkHint": "Este enlace abre este panel en cualquier dispositivo. Guárdalo y no lo compartas: quien tiene el enlace ve y cambia todo.",
+    "copyAdminLink": "Copiar enlace de administración",
+    "sendAdminLinkToMe": "Enviármelo por WhatsApp",
+    "adminLinkMessage": "Enlace de administración de Adsum para {name} (no lo compartas): {url}"
+  },
+  "Summaries": {
+    "title": "Resúmenes del mes",
+    "empty": "Aún no llegó ningún resumen. Cada persona envía el suyo cuando termina el mes.",
+    "month": "Mes",
+    "days": "{count, plural, one {día} other {días}}",
+    "hours": "horas",
+    "amount": "a pagar",
+    "sentAt": "Enviado el {when}",
+    "lateDays": "{count, plural, one {# día anotado después} other {# días anotados después}}",
+    "late": "anotado después",
+    "showDays": "Ver los días",
+    "hideDays": "Ocultar los días",
+    "times": "Llegada – salida",
+    "review": "{review, select, confirmed {conforme} disputed {no conforme} other {—}}",
+    "notReviewed": "por revisar",
+    "confirm": "Conforme",
+    "dispute": "No conforme",
+    "disputeNote": "¿Qué no está conforme?",
+    "disputeNoteHint": "La persona ve esta observación en su cuaderno. Hasta 300 caracteres.",
+    "sendDispute": "Enviar",
+    "cancel": "Cancelar",
+    "export": "Descargar hoja del mes",
+    "retentionHint": "Los resúmenes quedan aquí 60 días después del envío. Descarga la hoja para guardarlos.",
+    "csvPerson": "Persona",
+    "csvDate": "Día",
+    "csvCheckIn": "Llegada",
+    "csvCheckOut": "Salida",
+    "csvNote": "Relato",
+    "csvLate": "Anotado después",
+    "csvYes": "sí",
+    "csvDays": "Días",
+    "csvHours": "Horas",
+    "csvAmount": "Valor",
+    "csvReview": "Revisión"
+  },
+  "Invite": {
+    "missingToken": "Esta invitación está incompleta. Pide el enlace de nuevo a quien te invitó.",
+    "greeting": "Hola, {name}",
+    "title": "{workplace} te invitó a compartir tus días de servicio",
+    "rate": "Valor acordado: {amount} por {unit, select, day {día} other {hora}}",
+    "sharedTitle": "Qué se comparte",
+    "sharedSummary": "El resumen de cada mes, cuando lo envíes: días, valor y, si quieres, horarios y relatos.",
+    "sharedChoice": "Antes de cada envío revisas todo y eliges qué va.",
+    "dailyNotice": "Avisar cuando llegue y salga",
+    "dailyNoticeHint": "Quien contrata ve el aviso solo el mismo día. Puedes apagarlo cuando quieras.",
+    "notSharedTitle": "Qué queda solo contigo",
+    "notShared": "Tu cuaderno queda en tu celular: los otros clientes, los días que no enviaste y las notas que no elegiste mandar. Adsum no usa tu ubicación.",
+    "youDecide": "Puedes dejar de compartir en cualquier momento, en la página de este cliente en tu cuaderno.",
+    "declinedBefore": "Rechazaste esta invitación antes. Todavía puedes aceptarla.",
+    "accept": "Aceptar y abrir mi cuaderno",
+    "decline": "Rechazar",
+    "declineConfirm": "¿Rechazar la invitación de {workplace}? Quien te invitó verá que la rechazaste.",
+    "acceptTerms": "Al aceptar, estás de acuerdo con los <terms>términos de uso</terms> y la <privacy>política de privacidad</privacy>.",
+    "alreadyAccepted": "Ya aceptaste esta invitación. Abre tu cuaderno para anotar los días.",
+    "alreadyStopped": "Dejaste de compartir con este cliente. Abre tu cuaderno para volver a compartir, si quieres.",
+    "openNotebook": "Abrir en mi cuaderno"
+  },
+  "Notebook": {
+    "title": "Mi cuaderno",
+    "cannotPersist": "Este navegador no está guardando datos (modo incógnito o navegador dentro de otra app). Abre Adsum en el navegador del celular para no perder tus anotaciones.",
+    "empty": "Tu cuaderno está vacío.",
+    "emptyHint": "Cuando un cliente te invite, aparecerá aquí. También puedes anotar un cliente por tu cuenta.",
+    "addClient": "Agregar cliente",
+    "clientsLabel": "Clientes",
+    "today": "Hoy, {date}",
+    "editDay": "Corregir horario",
+    "arrived": "Llegué",
+    "left": "Salí",
+    "noticeSending": "Enviando aviso…",
+    "noticeResult": "{result, select, sent {Aviso enviado a {client}.} queued {Sin internet: el aviso se envía cuando vuelva la conexión, hoy.} refused {No se pudo avisar a {client}. El horario quedó anotado en tu cuaderno.} other {Anotado.}}",
+    "noticeOn": "{client} recibe un aviso cuando marcas.",
+    "noticeOff": "Queda anotado solo en tu cuaderno.",
+    "seeMonth": "Ver mes",
+    "days": "{count, plural, one {día} other {días}}",
+    "hours": "horas",
+    "amount": "a cobrar",
+    "pendingTitle": "Resúmenes por enviar",
+    "pendingItem": "{client} · {month}",
+    "clientsTitle": "Clientes",
+    "onlyHere": "Solo en tu cuaderno",
+    "sharingStopped": "Compartir detenido",
+    "sharesDailyNotice": "Recibe el resumen y el aviso diario",
+    "sharesSummary": "Recibe el resumen del mes",
+    "deviceOnly": "Tu cuaderno queda solo en este celular. Si cambias de dispositivo o borras los datos del navegador, las anotaciones se pierden: envía los resúmenes o descarga la hoja de cada mes."
+  },
+  "ClientForm": {
+    "back": "← Mi cuaderno",
+    "title": "Nuevo cliente",
+    "intro": "Para anotar los días de un cliente que no envió invitación. Queda solo en tu cuaderno.",
+    "name": "Nombre del cliente",
+    "nameHint": "Ej.: Doña Marta, Oficina Centro.",
+    "nameRequired": "Ponle un nombre al cliente.",
+    "rate": "Valor acordado",
+    "rateUnit": "Por",
+    "perDay": "día",
+    "perHour": "hora",
+    "inviteHint": "Para enviar el resumen, usas WhatsApp o la hoja. Si el cliente usa Adsum, pídele que te envíe una invitación.",
+    "add": "Agregar"
+  },
+  "ClientMonth": {
+    "notFound": "Este cliente no está en el cuaderno de este dispositivo.",
+    "back": "← Mi cuaderno",
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "calendarLabel": "Días del mes",
+    "calendarHint": "Toca un día para anotar o corregir. El punto verde marca lo que se anotó después.",
+    "worked": "trabajado",
+    "late": "anotado después",
+    "checkIn": "Llegada",
+    "checkOut": "Salida",
+    "checkInRequired": "Indica la hora de llegada.",
+    "timeInvalid": "Hora inválida.",
+    "note": "Relato del día",
+    "noteHint": "Opcional, hasta {max} caracteres. Solo va al cliente si lo eliges al enviar.",
+    "lateHint": "Este día ya pasó: al guardar, aparece como “anotado después” en el resumen.",
+    "clear": "Borrar día",
+    "clearConfirm": "¿Borrar las anotaciones de este día?",
+    "days": "{count, plural, one {día} other {días}}",
+    "hours": "horas",
+    "amount": "a cobrar",
+    "lateDays": "{count, plural, one {# día anotado después} other {# días anotados después}}",
+    "send": "Enviar resumen del mes",
+    "sendPartial": "Enviar resumen parcial",
+    "sendAgain": "Enviar de nuevo",
+    "settingsTitle": "Cliente",
+    "editClient": "Editar nombre y valor",
+    "linkedRateHint": "Este valor es el de tu cuaderno. Si cambió lo acordado, avisa al cliente.",
+    "removeClient": "Quitar del cuaderno",
+    "removeConfirm": "¿Quitar a {name} del cuaderno? Todos los días anotados para {name} se borrarán de este dispositivo.",
+    "removeLinkedConfirm": "¿Quitar a {name} del cuaderno? Dejas de compartir con {name} y los días anotados se borran de este dispositivo. Los resúmenes ya enviados siguen con el cliente hasta que expiren."
+  },
+  "Sharing": {
+    "title": "Compartir",
+    "activeHint": "{client} recibe los resúmenes que envías.",
+    "stoppedHint": "Dejaste de compartir con {client}. No se envía nada nuevo.",
+    "dailyNotice": "Avisar cuando llegue y salga",
+    "dailyNoticeHint": "{client} ve el aviso solo el mismo día.",
+    "clientNoDailyNotice": "Este cliente no pidió aviso diario.",
+    "review": "{review, select, confirmed {conforme} disputed {no conforme} other {por revisar}}",
+    "stop": "Dejar de compartir",
+    "stopConfirm": "¿Dejar de compartir con {client}? Los avisos de hoy se borran y no se envía nada nuevo. Puedes volver después.",
+    "resume": "Volver a compartir"
+  },
+  "Send": {
+    "notFound": "No encontramos este cliente o este mes en tu cuaderno.",
+    "back": "← {client}",
+    "title": "Resumen del mes",
+    "monthNotOver": "El mes aún no terminó. Puedes enviarlo ahora y de nuevo al final: el último envío reemplaza al anterior.",
+    "days": "{count, plural, one {día} other {días}}",
+    "hours": "horas",
+    "amount": "a cobrar",
+    "choiceTitle": "Qué va en el resumen",
+    "includeHours": "Horarios de llegada y salida",
+    "includeHoursHint": "Sin horarios, va solo la lista de días.",
+    "includeNotes": "Relatos de los días",
+    "includeNotesHint": "Las notas que escribiste cada día.",
+    "lateNotice": "{count, plural, one {# día aparece} other {# días aparecen}} como “anotado después”. Eso va en el resumen.",
+    "late": "anotado después",
+    "previewTitle": "Cómo lo verá el cliente",
+    "sendTo": "Enviar a {client}",
+    "sent": "Resumen enviado. {client} lo revisará y verás la respuesta en la página del cliente.",
+    "notLinkedHint": "Este cliente no está en Adsum: envía el resumen por WhatsApp o descarga la hoja.",
+    "sharingStoppedHint": "Dejaste de compartir con este cliente. Para enviar por Adsum, vuelve a compartir.",
+    "sendWhatsApp": "Enviar por WhatsApp",
+    "downloadCsv": "Descargar hoja",
+    "textTitle": "Resumen de {month} — {client}",
+    "textDays": "Días: {count}",
+    "textHours": "Horas: {hours}",
+    "textAmount": "Valor: {amount}",
+    "textFooter": "Anotado en Adsum (cuaderno de asistencia).",
+    "csvDate": "Día",
+    "csvCheckIn": "Llegada",
+    "csvCheckOut": "Salida",
+    "csvNote": "Relato",
+    "csvLate": "Anotado después",
+    "csvYes": "sí",
+    "csvDays": "Días",
+    "csvHours": "Horas",
+    "csvAmount": "Valor"
+  },
+  "Version": {
+    "title": "Versión y novedades",
+    "back": "← Inicio",
+    "current": "Estás usando la versión {version}",
+    "pilot": "Versión de prueba: Adsum está en piloto con pocas personas. Si algo falla, avisa por el contacto de la página Acerca de.",
+    "release": "Versión {version}",
+    "releases": {
+      "r0_3_0": {
+        "date": "18 de noviembre de 2026",
+        "i1": "Primera versión del piloto.",
+        "i2": "Quien contrata crea el lugar e invita a cada persona por WhatsApp, sin registro.",
+        "i3": "Quien presta el servicio anota llegada y salida en su propio celular, con relato del día.",
+        "i4": "Resumen del mes enviado por la persona, con días “anotados después” señalados.",
+        "i5": "Revisión del resumen (conforme / no conforme) y hoja del mes.",
+        "i6": "Aviso diario de llegada y salida, opcional y solo el mismo día.",
+        "i7": "Portugués, español e inglés; tema claro y oscuro."
+      }
+    },
+    "code": "Código abierto en <repo>github.com/pacioli1618-oss/adsum</repo>."
+  },
+  "Share": {
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyFailed": "No se pudo copiar. Mantén presionado el enlace para copiarlo."
+  },
+  "Errors": {
+    "not_authorized": "Este enlace de administración ya no vale. Pide el enlace correcto a quien creó el lugar.",
+    "terms_not_accepted": "Para continuar, acepta los términos de uso.",
+    "provider_name_required": "Escribe el nombre de la persona.",
+    "provider_name_taken": "Ya hay una invitación para {name} en este lugar.",
+    "provider_not_found": "Esta persona ya no está en este lugar.",
+    "workplace_full": "Este lugar llegó al límite de 100 personas.",
+    "review_invalid": "Elige conforme o no conforme.",
+    "summary_not_found": "Este resumen ya no existe. Recarga la página.",
+    "invite_not_found": "Esta invitación ya no vale. Puede que quien te invitó la haya cancelado.",
+    "invite_not_answered": "Primero acepta la invitación.",
+    "sharing_not_active": "Dejaste de compartir con este cliente. Vuelve a compartir para enviar.",
+    "daily_notice_off": "El aviso diario está apagado para este cliente.",
+    "notice_invalid": "Aviso inválido.",
+    "notice_out_of_day": "Solo se puede avisar el mismo día. El horario quedó anotado en tu cuaderno.",
+    "month_in_future": "Este mes aún no empezó.",
+    "rate_limited": "Demasiados intentos {period, select, day {hoy} other {en esta hora}}. Inténtalo más tarde.",
+    "network": "Sin conexión. Revisa internet e inténtalo de nuevo.",
+    "unknown": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma"
+  },
+  "ThemeSwitcher": {
+    "label": "Tema: {choice, select, light {claro} dark {oscuro} other {automático, sigue el dispositivo}}. Toca para cambiar."
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "body": "Revisa el enlace. Las invitaciones y los enlaces de administración deben estar completos.",
+    "cta": "Ir al inicio"
+  },
+  "Legal": {
+    "about": "Acerca de",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "linksLabel": "Acerca de Adsum",
+    "updated": "Actualizado el {date}",
+    "back": "Volver",
+    "contactTitle": "Contacto",
+    "contactBody": "Dudas, pedidos sobre tus datos o algo que no funciona: <link>{contact}</link>.",
+    "version": "versión {version}"
+  },
+  "About": {
+    "title": "Acerca de Adsum",
+    "intro": "Adsum es latín para “¡presente!”, la respuesta al pasar lista. Es un cuaderno de asistencia simple, sin registro, de la serie Sidekick de GR1618 Labs.",
+    "sections": {
+      "what": {
+        "title": "Para qué sirve",
+        "p1": "Quien presta un servicio anota los días que estuvo en el lugar, con llegada, salida y un relato corto. A fin de mes, envía el resumen a quien lo contrató.",
+        "p2": "Quien contrata invita a las personas, recibe los resúmenes, los revisa y descarga la hoja para pagar. Ambas partes ven el mismo resumen.",
+        "p3": "Adsum es un cuaderno de anotaciones acordado entre las partes. No es un reloj de control horario, no reemplaza ningún registro de jornada exigido por ley y no prueba ningún tipo de vínculo."
+      },
+      "safety": {
+        "title": "Cómo reconocer un enlace verdadero",
+        "p1": "Los enlaces de Adsum empiezan con {host}. Adsum nunca pide contraseña, documento, foto ni pago.",
+        "p2": "Desconfía de mensajes que pidan cualquiera de esas cosas en nombre de Adsum."
+      },
+      "notebook": {
+        "title": "Dónde quedan las anotaciones",
+        "p1": "El cuaderno de quien presta el servicio queda en su propio celular. El servidor recibe solo lo que la persona elige compartir: el resumen del mes y, si quiere, el aviso de llegada y salida del día.",
+        "p2": "Los avisos del día desaparecen a medianoche. Los resúmenes se guardan 60 días después del envío."
+      },
+      "who": {
+        "title": "Quién lo hace",
+        "p1": "Adsum lo hace {operator} como proyecto independiente. Es gratis, sin anuncios y sin venta de datos.",
+        "p2": "Está en fase piloto, con pocas personas, antes de abrirse al público."
+      },
+      "code": {
+        "title": "Código abierto",
+        "p1": "Todo el código está publicado en <repo>github.com/pacioli1618-oss/adsum</repo>, bajo la licencia AGPL-3.0. Cualquiera puede revisar qué hace la app con los datos."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Privacidad",
+    "intro": "Adsum guarda lo mínimo posible y por poco tiempo. Esta página explica qué, dónde y por cuánto tiempo.",
+    "sections": {
+      "collect": {
+        "title": "Qué va al servidor",
+        "p1": "De quien contrata: el nombre del lugar, el valor acordado, el idioma, la fecha de aceptación de los términos y los nombres que usa en las invitaciones.",
+        "p2": "De quien presta el servicio, solo después de aceptar una invitación: el resumen de cada mes que envíe (días, valor y, si lo elige, horarios y relatos) y, si lo activa, los avisos de llegada y salida del día.",
+        "p3": "No pedimos correo, teléfono, documento, foto ni ubicación. No hay registro ni contraseña: el acceso es por el enlace."
+      },
+      "notebook": {
+        "title": "Qué queda solo en el celular",
+        "p1": "El cuaderno de quien presta el servicio —todos los días, horarios, relatos y clientes— queda en el almacenamiento del navegador de su propio celular y no va al servidor.",
+        "p2": "Los enlaces de administración y de invitación también se guardan en el dispositivo, para abrir la app sin necesitar el enlace de nuevo."
+      },
+      "visibility": {
+        "title": "Quién ve qué",
+        "p1": "Quien contrata ve, de cada persona invitada: si aceptó, los resúmenes que envió y, si lo activó, los avisos del día.",
+        "p2": "Quien presta el servicio ve el nombre del lugar, el valor y la revisión de cada resumen enviado. Una persona no ve a las otras personas del mismo lugar."
+      },
+      "retention": {
+        "title": "Por cuánto tiempo",
+        "p1": "Avisos de llegada y salida: hasta el final del mismo día. Resúmenes: 60 días después del envío. Los lugares sin uso por 400 días se borran con todo lo que tengan.",
+        "p2": "Quien contrata puede eliminar el lugar en cualquier momento. Quien presta el servicio puede dejar de compartir en cualquier momento; eso borra los avisos del día."
+      },
+      "providers": {
+        "title": "Servicios que usamos",
+        "p1": "La app funciona en Vercel y los datos quedan en Supabase, en la región de São Paulo. Para limitar abusos, guardamos por poco tiempo un código derivado de la dirección de red, que no permite recuperar la dirección."
+      },
+      "rights": {
+        "title": "Tus derechos",
+        "p1": "Puedes pedir acceso, corrección o eliminación de tus datos. Como no hay registro, lo más rápido es usar las opciones de la propia app: eliminar el lugar, quitar a una persona, dejar de compartir o quitar un cliente del cuaderno.",
+        "p2": "Para cualquier otro pedido, usa el contacto de abajo."
+      },
+      "controller": {
+        "title": "Responsable",
+        "p1": "{operator} es responsable del tratamiento de los datos que llegan al servidor. Las anotaciones acordadas entre quien contrata y quien presta el servicio son responsabilidad de las partes."
+      }
+    }
+  },
+  "Terms": {
+    "title": "Términos de uso",
+    "intro": "Reglas breves para usar Adsum. Al crear un lugar o aceptar una invitación, estás de acuerdo con ellas.",
+    "sections": {
+      "service": {
+        "title": "El servicio",
+        "p1": "Adsum es un cuaderno de anotaciones gratuito, ofrecido tal como está, en fase piloto. Puede cambiar, quedar fuera de línea o cerrarse.",
+        "p2": "Guarda tus copias: descarga la hoja de cada mes."
+      },
+      "notRecord": {
+        "title": "No es un reloj de control horario",
+        "p1": "Adsum no es un sistema de registro electrónico de jornada, no cumple la Portaria MTP nº 671/2021 de Brasil y no reemplaza ningún control exigido por ley.",
+        "p2": "Las anotaciones las hace quien presta el servicio, en su propio celular, y esa persona puede corregirlas. No prueban ningún tipo de vínculo."
+      },
+      "notParty": {
+        "title": "Adsum no es parte del acuerdo",
+        "p1": "Quien contrata y quien presta el servicio acuerdan entre sí el trabajo, el valor y el pago. {operator} no intermedia, no recibe ni transfiere pagos y no responde por lo acordado."
+      },
+      "responsibility": {
+        "title": "Cada uno responde por lo que anota",
+        "p1": "Quien contrata responde por los nombres y valores que registra. Quien presta el servicio responde por los días, horarios y relatos que envía.",
+        "p2": "No uses Adsum para vigilar personas, para fines ilegales ni para guardar datos sensibles en los relatos."
+      },
+      "records": {
+        "title": "Conservación de los datos",
+        "p1": "Los resúmenes quedan en el servidor 60 días y los avisos, solo el mismo día. El cuaderno queda en el celular de quien presta el servicio. Si necesitas guardarlos por más tiempo, descarga la hoja."
+      },
+      "links": {
+        "title": "Enlaces",
+        "p1": "Quien tiene el enlace de administración controla el lugar; quien tiene el enlace de invitación controla lo que se comparte. No compartas esos enlaces con quien no debe tenerlos."
+      },
+      "license": {
+        "title": "Código abierto",
+        "p1": "El código de Adsum se publica bajo la licencia AGPL-3.0 en <repo>github.com/pacioli1618-oss/adsum</repo>."
+      },
+      "law": {
+        "title": "Ley aplicable",
+        "p1": "Estos términos se rigen por las leyes de Brasil."
+      }
+    }
+  },
+  "Install": {
+    "button": "Fijar en la pantalla del celular",
+    "title": "Fijar en la pantalla del celular",
+    "intro": "Así Adsum queda junto a tus apps y abre directo en tu cuaderno.",
+    "ios1": "Toca el botón Compartir (el cuadrado con una flecha hacia arriba), en la barra de Safari.",
+    "ios2": "Desplázate y toca \"Agregar a pantalla de inicio\".",
+    "ios3": "Toca \"Agregar\". El ícono de Adsum aparece en la pantalla del celular.",
+    "menu1": "Abre el menú del navegador (los tres puntos ⋮).",
+    "menu2": "Toca \"Agregar a pantalla de inicio\" o \"Instalar app\" y confirma.",
+    "done": "Entendido"
+  }
+}
